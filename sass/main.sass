@@ -2,7 +2,7 @@
 body
 	font-family: "RobotoRegular", sans-serif
 	overflow-x: hidden
-	font-size: 17pt
+	font-size: 16pt
 a
 	text-decoration: none
 	&:hover
@@ -18,52 +18,52 @@ p
 .top_header
 	// height: 117px
 	.logo
-		padding-top: 27px
+		margin-top: 27px
 		p
 
-			padding-top: 14px
+			margin-top: 14px
 			font-size: 12pt
 			span
 				color: $mainColor3
-	.list
-		padding: 
+	.counry
+		margin:  
 			top: 40px
-			left: 58px
-		.selection
-			width: 124px
-			background-image: url('../img/border.png')
-			background-repeat: no-repeat
-			span
-				text-transform: uppercase
-				margin: 8px
-				font-size: 14pt
-			p 
-				font-size: 10pt
-				padding-top: 15px
-			// border: 1px solid $mainColor1
-			// overflow: hidden
-			// height: 34px
-			// background: url("../img/arrow.png") no-repeat 130px
-			// width: 240px
-			// select
-				// border-radius: 0
-				// background: transparent
-				// height: 34px
-				// // padding: 8px
-				// border: 0
-				// font-size: 16px
-				// // line-height: 1
-				// -webkit-appearance: none
-				// width: 270px
-				// option
-				// 	padding: 5px
-				// 	width: 240px
-				// height: 100%
-			
-				
-							
+			left: 43px
+		border: 2px solid $mainColor1
+		overflow: hidden
+		height: 30px
+		background: #fff url("../img/arrow.png") no-repeat 103px 50%
+		width: 124px
+		select
+			text-transform: uppercase
+			margin:
+				top: 0
+			border-radius: 0
+			background: transparent
+			border: 0
+			font-size: 16px
+			width: 150px
+			&:focus
+				outline: none
+			option
+				background: transparent
+	.language
+		overflow: hidden
+		font-size: 10pt
+		height: 16px
+		width: 64px
+		margin:
+			top: 15px
+			left: 43px
+		background: #fff url("../img/arrow.png") no-repeat 30px 50%
+		select
+			margin: 0
+			border-radius: 0
+			background: transparent
+			width: 100px
+			border: 0
 	.phone
-		padding-top: 40px
+		margin-top: 40px
 		a
 			padding-left: 10px
 	.location
@@ -84,48 +84,80 @@ p
 			font-size: 14pt
 			&:hover
 				border-bottom: dotted
+
+				
+
+
+
 nav
-	
 	position: relative
 	top: 0
 	left: 0
 	width: 100%
-	height: 100px
-	line-height: 40px
+	height: 100%
+	line-height: 47px
 	z-index: 999
-	height: 47px
-	border: 1px solid
-	border-color: $mainColor1
-	border-radius: 0
-	background-color: $mainColor3
-
-.menu
-	text-align: right
+	border: 0
+	background-color: $mainColor1
+	margin-top: 20px
 	li
 		display: inline-block
-	a
-		font-size: 18px
+		text-align: center
+	.menu
+		li
+			width: 230px
+			background-color: $mainColor3
+			height: 47px
+			a
+				color: #fff
 		
-
-
-.menu_btn
-	display: none
-// nav
-// 	position: relative
-// 	top: 0
-// 	left: 0
-// 	width: 100%
-// 	height: 100px
-// 	line-height: 100px
-// 	z-index: 999
-// 	border-bottom: 1px solid transparentize(#000, .8)
 	
+				
+
+// .menu
 // 	
+// 	a
+// 		font-size: 17px
+// 	input, select, button
+		border: 0
+		margin: 0
+		border-radius: 0
+		background: #fff
 	
+// 	.input_select
+// 		background-color: #fff
+// 		border: 1px solid $mainColor1
+// 	.dropdown
+// 		width: 230px
+// 		background-color: $mainColor3
+		
+// .menu_btn
+// 	display: none
+
+
+// .slider_top, .info
+// 	height: 322px
+// .slider_top
+// 	background-color: $mainColor3
+// 	margin: 
+// 		left: 10px
+// .info
+// 	background-color: $mainColor1
+// 	margin: 
+// 		right: 10px
+
+// .blue
+// 	background-color: blue
+// 	height: 100%
 
 
 
-
+// .bottom_menu
+// 	text-align: left
+// 	height: 83px
+// 	line-height: 83px 
+// 	li
+// 		display: inline-block
 
 
 

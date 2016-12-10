@@ -1,7 +1,8 @@
 /*==========  Desktop First Method  ========== */
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
-  /* */ }
+  .containet {
+    width: 990px; } }
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .bottom_menu_btn {

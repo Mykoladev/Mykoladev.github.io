@@ -1,9 +1,9 @@
 @font-face {
-  font-family: "RobotoRegular";
-  src: url("../fonts/RobotoRegular/RobotoRegular.eot");
-  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype");
-  src: url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff");
-  src: url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+  font-family: "minion_pro";
+  src: url("../fonts/minion_pro/RobotoRegular.eot");
+  src: url("../fonts/minion_pro/RobotoRegular.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/minion_pro/RobotoRegular.woff") format("woff");
+  src: url("../fonts/minion_pro/RobotoRegular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal; }
 

@@ -2,7 +2,7 @@
 body
 	font-family: "RobotoRegular", sans-serif
 	overflow-x: hidden
-	font-size: 16pt
+	font-size: 17px
 a
 	text-decoration: none
 	&:hover
@@ -21,8 +21,9 @@ p
 		margin-top: 27px
 		p
 
-			margin-top: 14px
-			font-size: 12pt
+			margin-top: 10px
+			font-size: 14px
+			color: $mainColor2
 			span
 				color: $mainColor3
 	.counry
@@ -41,21 +42,19 @@ p
 			border-radius: 0
 			background: transparent
 			border: 0
-			font-size: 16px
 			width: 150px
 			&:focus
 				outline: none
 			option
 				background: transparent
 	.language
-		overflow: hidden
-		font-size: 10pt
+		color: $mainColor2
 		height: 16px
-		width: 64px
+		width: 150px
 		margin:
 			top: 15px
 			left: 43px
-		background: #fff url("../img/arrow.png") no-repeat 30px 50%
+		background: #fff url("../img/arrow.png") no-repeat 100px 50%
 		select
 			margin: 0
 			border-radius: 0
@@ -64,26 +63,35 @@ p
 			border: 0
 	.phone
 		margin-top: 40px
+		font-size: 18px
 		a
+			color: $mainColor2
 			padding-left: 10px
 	.location
 		text-align: right
 		>p
-			font-size: 10pt
-			padding: 10px
+			font-size: 14px
+			padding:
+				left: 10px
+				top: 10px
+				bottom: 10px
 			span
 				padding-left: 7px
+			a
+				color: rgb(24,24,24)
 		.partner
 			padding-right: 30px
 		.partner, .action
-			
+			color: $mainColor2
 			text-transform: uppercase
 			&:hover
 				text-decoration: underline
 		.render
-			font-size: 14pt
+			color: $mainColor2
+			position: relative
+			top: 10px
 			&:hover
-				border-bottom: dotted
+				border-bottom: dotted rgb(37,37,37)
 
 				
 
@@ -103,16 +111,19 @@ nav
 	li
 		display: inline-block
 		text-align: center
-	.menu
-		li
-			width: 230px
-			background-color: $mainColor3
-			height: 47px
-			a
-				color: #fff
-		
+.menu
+	.mega_menu
+		background-color: $mainColor3
+		width: 230px
+		a
+			color: #fff
+// 		.serch_select
+// 			background-color: red
+// 			height: 37px
+// 			width: 10px
 	
 				
+
 
 // .menu
 // 	
@@ -134,40 +145,80 @@ nav
 // .menu_btn
 // 	display: none
 
+.bottom_menu_btn
+	display: none 
+.bottom_menu
+	font-size: 18px
+	text-align: left
+	height: 83px
+	line-height: 83px 
+	li
+		display: inline-block
+		margin: 
+			right: 40px
+		a
+			color: $mainColor2
+			&:hover
+				text-decoration: underline
+				color: $mainColor3
 
-// .slider_top, .info
-// 	height: 322px
-// .slider_top
-// 	background-color: $mainColor3
-// 	margin: 
-// 		left: 10px
-// .info
-// 	background-color: $mainColor1
-// 	margin: 
-// 		right: 10px
-
-// .blue
-// 	background-color: blue
-// 	height: 100%
-
-
-
-// .bottom_menu
-// 	text-align: left
-// 	height: 83px
-// 	line-height: 83px 
-// 	li
-// 		display: inline-block
+	.other
+		margin-left: 28px
+		select
+			margin:
+				top: 0
+			border-radius: 0
+			background: transparent
+			border: 0
+			width: 70px
+			&:focus
+				outline: none
+			option
+				background: transparent
+		.other__menu
+			&:hover
+				text-decoration: underline
+				color: $mainColor3
+			display: inline-block
+			width: 50px
+			background: #fff url("../img/dubbel_arrow.png") no-repeat 45px 50%
 
 
 
+.slider_top, .info
+	height: 322px
+.slider_top
+	background-color: $mainColor1
+	margin: 
+		left: 10px
+	padding-top: 6px
+	text-align: center
+.info
+	background-color: #fff
+	border: 1px solid $mainColor1
+	padding: 20px
+	margin: 
+		right: 10px
+	table
+		height: 90%
+		font-size: 18px
+		td
+			padding:
+				bottom: 10px
+				left: 15px
 
+.baner, .middle_line
+	position: relative
+	text-align: center
+.baner
+	margin: 39px auto	
+.middle_line
+	background-image: url(../img/line.png) 
+	margin: 52px auto
+	
+	 
 
-
-
-
-
-
+				
 
 
 

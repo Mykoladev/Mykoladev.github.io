@@ -1,7 +1,7 @@
 body {
   font-family: "RobotoRegular", sans-serif;
   overflow-x: hidden;
-  font-size: 16pt; }
+  font-size: 17px; }
 
 a {
   text-decoration: none; }
@@ -19,8 +19,9 @@ p {
 .top_header .logo {
   margin-top: 27px; }
   .top_header .logo p {
-    margin-top: 14px;
-    font-size: 12pt; }
+    margin-top: 10px;
+    font-size: 14px;
+    color: #3f3f3f; }
     .top_header .logo p span {
       color: #ec5b26; }
 .top_header .counry {
@@ -37,20 +38,18 @@ p {
     border-radius: 0;
     background: transparent;
     border: 0;
-    font-size: 16px;
     width: 150px; }
     .top_header .counry select:focus {
       outline: none; }
     .top_header .counry select option {
       background: transparent; }
 .top_header .language {
-  overflow: hidden;
-  font-size: 10pt;
+  color: #3f3f3f;
   height: 16px;
-  width: 64px;
+  width: 150px;
   margin-top: 15px;
   margin-left: 43px;
-  background: #fff url("../img/arrow.png") no-repeat 30px 50%; }
+  background: #fff url("../img/arrow.png") no-repeat 100px 50%; }
   .top_header .language select {
     margin: 0;
     border-radius: 0;
@@ -58,26 +57,35 @@ p {
     width: 100px;
     border: 0; }
 .top_header .phone {
-  margin-top: 40px; }
+  margin-top: 40px;
+  font-size: 18px; }
   .top_header .phone a {
+    color: #3f3f3f;
     padding-left: 10px; }
 .top_header .location {
   text-align: right; }
   .top_header .location > p {
-    font-size: 10pt;
-    padding: 10px; }
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
     .top_header .location > p span {
       padding-left: 7px; }
+    .top_header .location > p a {
+      color: #181818; }
   .top_header .location .partner {
     padding-right: 30px; }
   .top_header .location .partner, .top_header .location .action {
+    color: #3f3f3f;
     text-transform: uppercase; }
     .top_header .location .partner:hover, .top_header .location .action:hover {
       text-decoration: underline; }
   .top_header .location .render {
-    font-size: 14pt; }
+    color: #3f3f3f;
+    position: relative;
+    top: 10px; }
     .top_header .location .render:hover {
-      border-bottom: dotted; }
+      border-bottom: dotted #252525; }
 
 nav {
   position: relative;
@@ -93,11 +101,79 @@ nav {
   nav li {
     display: inline-block;
     text-align: center; }
-  nav .menu li {
-    width: 230px;
-    background-color: #ec5b26;
-    height: 47px; }
-    nav .menu li a {
-      color: #fff; }
+
+.menu .mega_menu {
+  background-color: #ec5b26;
+  width: 230px; }
+  .menu .mega_menu a {
+    color: #fff; }
+
+.bottom_menu_btn {
+  display: none; }
+
+.bottom_menu {
+  font-size: 18px;
+  text-align: left;
+  height: 83px;
+  line-height: 83px; }
+  .bottom_menu li {
+    display: inline-block;
+    margin-right: 40px; }
+    .bottom_menu li a {
+      color: #3f3f3f; }
+      .bottom_menu li a:hover {
+        text-decoration: underline;
+        color: #ec5b26; }
+  .bottom_menu .other {
+    margin-left: 28px; }
+    .bottom_menu .other select {
+      margin-top: 0;
+      border-radius: 0;
+      background: transparent;
+      border: 0;
+      width: 70px; }
+      .bottom_menu .other select:focus {
+        outline: none; }
+      .bottom_menu .other select option {
+        background: transparent; }
+    .bottom_menu .other .other__menu {
+      display: inline-block;
+      width: 50px;
+      background: #fff url("../img/dubbel_arrow.png") no-repeat 45px 50%; }
+      .bottom_menu .other .other__menu:hover {
+        text-decoration: underline;
+        color: #ec5b26; }
+
+.slider_top, .info {
+  height: 322px; }
+
+.slider_top {
+  background-color: #db841a;
+  margin-left: 10px;
+  padding-top: 6px;
+  text-align: center; }
+
+.info {
+  background-color: #fff;
+  border: 1px solid #db841a;
+  padding: 20px;
+  margin-right: 10px; }
+  .info table {
+    height: 90%;
+    font-size: 18px; }
+    .info table td {
+      padding-bottom: 10px;
+      padding-left: 15px; }
+
+.baner, .middle_line {
+  position: relative;
+  text-align: center; }
+
+.baner {
+  margin: 39px auto; }
+
+.middle_line {
+  background-image: url(../img/line.png);
+  margin: 52px auto; }
 
 /*# sourceMappingURL=main.css.map */

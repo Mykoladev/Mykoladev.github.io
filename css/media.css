@@ -1,15 +1,9 @@
 /*==========  Desktop First Method  ========== */
 /* Large Devices, Wide Screens */
-@media only screen and (max-width: 1200px) {
-  .containet {
-    width: 990px; } }
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .bottom_menu_btn {
-    display: block; }
-
-  .bottom_menu {
-    display: none; } }
+    display: block; } }
 /* Small Devices, Tablets */
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
@@ -20,6 +14,9 @@
 @media only screen and (min-width: 768px) {
   /* */ }
 /* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 990px; } }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
   /* */ }

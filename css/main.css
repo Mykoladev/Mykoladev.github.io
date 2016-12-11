@@ -1,5 +1,5 @@
 body {
-  font-family: "RobotoRegular", sans-serif;
+  font-family: "minion_pro", sans-serif;
   overflow-x: hidden;
   font-size: 17px; }
 
@@ -16,97 +16,143 @@ h1,
 p {
   margin: 0; }
 
+.icons {
+  height: 30px;
+  width: 30px;
+  float: left;
+  background-image: url("../img/icons.png"); }
+
 .top_header .logo {
   margin-top: 27px; }
   .top_header .logo p {
-    margin-top: 10px;
+    margin-top: 14px;
     font-size: 14px;
     color: #3f3f3f; }
     .top_header .logo p span {
       color: #ec5b26; }
-.top_header .counry {
-  margin-top: 40px;
+.top_header .country .btn-group {
+  text-transform: uppercase;
+  padding: 0;
+  margin-top: 38px;
   margin-left: 43px;
-  border: 2px solid #db841a;
-  overflow: hidden;
-  height: 30px;
-  background: #fff url("../img/arrow.png") no-repeat 103px 50%;
-  width: 124px; }
-  .top_header .counry select {
+  border: 1px solid #db841a;
+  background: #fff url("../img/arrow.png") no-repeat 100px 50%;
+  width: 124px;
+  height: 30px; }
+  .top_header .country .btn-group .btn {
     text-transform: uppercase;
-    margin-top: 0;
+    padding-top: 6px;
+    padding-left: 15px;
+    padding-bottom: 4px;
+    padding-right: 50px;
     border-radius: 0;
     background: transparent;
-    border: 0;
-    width: 150px; }
-    .top_header .counry select:focus {
+    border: 0; }
+    .top_header .country .btn-group .btn:focus {
       outline: none; }
-    .top_header .counry select option {
-      background: transparent; }
-.top_header .language {
-  color: #3f3f3f;
-  height: 16px;
-  width: 150px;
-  margin-top: 15px;
+.top_header .language .btn-group {
+  padding: 0;
+  margin-top: 16px;
   margin-left: 43px;
-  background: #fff url("../img/arrow.png") no-repeat 100px 50%; }
-  .top_header .language select {
+  background: #fff url("../img/arrow.png") no-repeat 60px 70%;
+  width: 80px;
+  height: 18px; }
+  .top_header .language .btn-group .btn {
+    padding-right: 20px !important;
+    vertical-align: center;
+    font-size: 17px;
+    padding: 0;
     margin: 0;
     border-radius: 0;
     background: transparent;
-    width: 100px;
     border: 0; }
+    .top_header .language .btn-group .btn:focus {
+      outline: none; }
+    .top_header .language .btn-group .btn .icons {
+      background-position: -235px -68px; }
 .top_header .phone {
   margin-top: 40px;
   font-size: 18px; }
-  .top_header .phone a {
+  .top_header .phone .icons {
+    height: 30px;
+    background-position: 0 0px; }
+  .top_header .phone > a {
     color: #3f3f3f;
     padding-left: 10px; }
+.top_header .telegram {
+  margin-top: 10px;
+  margin-left: 0px; }
+  .top_header .telegram a > .icons {
+    background-position: -30px 0px; }
+  .top_header .telegram a .whatsapp {
+    height: 28px;
+    margin-left: 5px;
+    background-position: -60px 0px; }
 .top_header .location {
+  text-align: right;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+  .top_header .location .icons {
+    width: 15px;
+    height: 25px;
+    background-position: 0 -38px;
+    margin-left: 72px; }
+  .top_header .location span {
+    padding-left: 7px; }
+  .top_header .location a {
+    color: #3f3f3f; }
+.top_header .actions {
+  margin-top: 12px;
   text-align: right; }
-  .top_header .location > p {
-    font-size: 14px;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px; }
-    .top_header .location > p span {
-      padding-left: 7px; }
-    .top_header .location > p a {
-      color: #181818; }
-  .top_header .location .partner {
-    padding-right: 30px; }
-  .top_header .location .partner, .top_header .location .action {
-    color: #3f3f3f;
-    text-transform: uppercase; }
-    .top_header .location .partner:hover, .top_header .location .action:hover {
+  .top_header .actions .partner, .top_header .actions .action, .top_header .actions .render {
+    color: #3f3f3f; }
+  .top_header .actions p {
+    padding-bottom: 17px;
+    text-transform: uppercase;
+    text-align: right; }
+    .top_header .actions p .partner {
+      padding-right: 36px; }
+      .top_header .actions p .partner:hover {
+        text-decoration: underline; }
+    .top_header .actions p .action:hover {
       text-decoration: underline; }
-  .top_header .location .render {
-    color: #3f3f3f;
-    position: relative;
-    top: 10px; }
-    .top_header .location .render:hover {
-      border-bottom: dotted #252525; }
+  .top_header .actions .render .rend {
+    margin-right: 7px; }
+  .top_header .actions .render .sell {
+    margin-left: 7px; }
+  .top_header .actions .render:hover {
+    border-bottom: dotted #252525; }
 
 nav {
   position: relative;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 47px;
   line-height: 47px;
   z-index: 999;
   border: 0;
   background-color: #db841a;
   margin-top: 20px; }
   nav li {
-    display: inline-block;
-    text-align: center; }
-
-.menu .mega_menu {
-  background-color: #ec5b26;
-  width: 230px; }
-  .menu .mega_menu a {
-    color: #fff; }
+    position: relative;
+    display: inline-block; }
+  nav .menu__top_menu {
+    width: 230px;
+    height: 47px;
+    padding: 0;
+    margin: 0;
+    background: url("../img/dubbel_arrow.png") no-repeat 76px 59%;
+    position: absolute; }
+    nav .menu__top_menu .menu__dropdown_menu {
+      display: none; }
+    nav .menu__top_menu li:hover .menu__dropdown_menu {
+      display: block !important;
+      background: #db841a; }
+    nav .menu__top_menu li a {
+      z-index: 500; }
 
 .bottom_menu_btn {
   display: none; }
@@ -114,66 +160,149 @@ nav {
 .bottom_menu {
   font-size: 18px;
   text-align: left;
-  height: 83px;
-  line-height: 83px; }
+  height: 53px;
+  margin-top: 30px; }
   .bottom_menu li {
-    display: inline-block;
-    margin-right: 40px; }
+    display: inline-block; }
     .bottom_menu li a {
       color: #3f3f3f; }
       .bottom_menu li a:hover {
         text-decoration: underline;
         color: #ec5b26; }
-  .bottom_menu .other {
-    margin-left: 28px; }
-    .bottom_menu .other select {
-      margin-top: 0;
+  .bottom_menu .parfum span, .bottom_menu .chemistry span, .bottom_menu .clothes span, .bottom_menu .ohter_islam span, .bottom_menu .children span {
+    padding-left: 3px; }
+  .bottom_menu .parfum {
+    margin-right: 32px; }
+    .bottom_menu .parfum .icons {
+      height: 28px;
+      background-position: -89px 0px; }
+  .bottom_menu .chemistry {
+    margin-right: 21px; }
+    .bottom_menu .chemistry .icons {
+      height: 28px;
+      background-position: -118px 1px; }
+  .bottom_menu .clothes {
+    margin-right: 20px; }
+    .bottom_menu .clothes .icons {
+      height: 28px;
+      width: 25px;
+      background-position: -147px 1px; }
+  .bottom_menu .ohter_islam {
+    margin-right: 22px; }
+    .bottom_menu .ohter_islam .icons {
+      width: 25px;
+      height: 25px;
+      background-position: -172px -1px; }
+  .bottom_menu .children {
+    margin-right: 33px; }
+    .bottom_menu .children .icons {
+      height: 28px;
+      width: 25px;
+      background-position: -194px 1px; }
+  .bottom_menu .other .btn-group {
+    padding: 0;
+    margin-left: 28px;
+    background: #fff url("../img/dubbel_arrow.png") no-repeat 76px 59%;
+    width: 90px;
+    height: 25px; }
+    .bottom_menu .other .btn-group .btn {
+      width: 90px;
+      background: transparent;
+      vertical-align: center;
+      font-size: 18px;
+      padding: 0;
+      margin: 0;
       border-radius: 0;
       background: transparent;
       border: 0;
-      width: 70px; }
-      .bottom_menu .other select:focus {
-        outline: none; }
-      .bottom_menu .other select option {
-        background: transparent; }
-    .bottom_menu .other .other__menu {
-      display: inline-block;
-      width: 50px;
-      background: #fff url("../img/dubbel_arrow.png") no-repeat 45px 50%; }
-      .bottom_menu .other .other__menu:hover {
+      text-align: left; }
+      .bottom_menu .other .btn-group .btn:hover {
         text-decoration: underline;
         color: #ec5b26; }
+      .bottom_menu .other .btn-group .btn:focus {
+        outline: none; }
+      .bottom_menu .other .btn-group .btn .icons {
+        margin-right: 10px;
+        background-position: -220px 2px; }
 
 .slider_top, .info {
   height: 322px; }
 
-.slider_top {
-  background-color: #db841a;
-  margin-left: 10px;
-  padding-top: 6px;
-  text-align: center; }
-
 .info {
   background-color: #fff;
   border: 1px solid #db841a;
-  padding: 20px;
-  margin-right: 10px; }
+  padding: 15px;
+  margin-right: 9px; }
   .info table {
-    height: 90%;
+    height: 100%;
     font-size: 18px; }
+    .info table .list_rend .icons {
+      height: 40px;
+      width: 40px;
+      background-position: -74px -25px; }
+    .info table .list_export .icons {
+      height: 40px;
+      width: 40px;
+      background-position: -113px -25px; }
+    .info table .list_shop .icons {
+      height: 40px;
+      width: 40px;
+      background-position: -153px -25px; }
+    .info table .list_money .icons {
+      height: 40px;
+      width: 40px;
+      background-position: -193px -25px; }
+    .info table .list_frend .icons {
+      height: 40px;
+      width: 40px;
+      background-position: -230px -25px; }
     .info table td {
+      line-height: 20px;
       padding-bottom: 10px;
       padding-left: 15px; }
 
-.baner, .middle_line {
-  position: relative;
-  text-align: center; }
-
 .baner {
-  margin: 39px auto; }
+  margin: 38px auto; }
+  .baner .parfum, .baner .perm, .baner .clothers {
+    height: 176px;
+    border: 1px solid #db841a; }
+    .baner .parfum .left_text, .baner .perm .left_text, .baner .clothers .left_text {
+      text-transform: uppercase;
+      text-align: left;
+      font-size: 20px;
+      padding-top: 13px;
+      padding-left: 10px;
+      color: #fff; }
+      .baner .parfum .left_text p, .baner .perm .left_text p, .baner .clothers .left_text p {
+        line-height: 5px; }
+    .baner .parfum .right_text, .baner .perm .right_text, .baner .clothers .right_text {
+      text-align: right;
+      font-size: 20px;
+      padding-right: 20px;
+      color: #fff; }
+      .baner .parfum .right_text p, .baner .perm .right_text p, .baner .clothers .right_text p {
+        line-height: 5px; }
+  .baner .parfum {
+    margin-right: 7px;
+    background-image: url("../img/parfum.png"); }
+    .baner .parfum .left_text {
+      color: red; }
+  .baner .perm {
+    background-image: url("../img/Perm.png"); }
+  .baner .clothers {
+    background-image: url("../img/clothes.png");
+    margin-left: 10px; }
 
-.middle_line {
-  background-image: url(../img/line.png);
-  margin: 52px auto; }
+.line {
+  margin: 52px auto;
+  position: relative; }
+  .line .middle_line {
+    background: #fff url("../img/line.png") no-repeat 100% 33%;
+    text-align: center;
+    font-size: 20px;
+    color: #ec5b26;
+    text-transform: uppercase;
+    vertical-align: center;
+    padding-right: 22px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,6 +1,6 @@
 @import vars
 body
-	font-family: "RobotoRegular", sans-serif
+	font-family: "minion_pro", sans-serif
 	overflow-x: hidden
 	font-size: 17px
 a
@@ -14,6 +14,11 @@ h1,
 p
 	margin: 0
 
+.icons
+	height: 30px
+	width: 30px
+	float: left
+	background-image: url("../img/icons.png")
 
 .top_header
 	// height: 117px
@@ -21,75 +26,118 @@ p
 		margin-top: 27px
 		p
 
-			margin-top: 10px
+			margin-top: 14px
 			font-size: 14px
 			color: $mainColor2
 			span
 				color: $mainColor3
-	.counry
-		margin:  
-			top: 40px
-			left: 43px
-		border: 2px solid $mainColor1
-		overflow: hidden
-		height: 30px
-		background: #fff url("../img/arrow.png") no-repeat 103px 50%
-		width: 124px
-		select
+	.country
+		.btn-group
 			text-transform: uppercase
-			margin:
-				top: 0
-			border-radius: 0
-			background: transparent
-			border: 0
-			width: 150px
-			&:focus
-				outline: none
-			option
+			padding: 0
+			margin:  
+				top: 38px
+				left: 43px
+			border: 1px solid $mainColor1
+			background: #fff url("../img/arrow.png") no-repeat 100px 50%
+			width: 124px
+			height: 30px
+			.btn
+				text-transform: uppercase
+				padding:
+					top: 6px
+					left: 15px
+					bottom: 4px
+					right: 50px
+				border-radius: 0
 				background: transparent
+				border: 0
+				&:focus
+					outline: none
+		
 	.language
-		color: $mainColor2
-		height: 16px
-		width: 150px
-		margin:
-			top: 15px
-			left: 43px
-		background: #fff url("../img/arrow.png") no-repeat 100px 50%
-		select
-			margin: 0
-			border-radius: 0
-			background: transparent
-			width: 100px
-			border: 0
+		.btn-group
+			padding: 0
+			margin:  
+				top: 16px
+				left: 43px
+			background: #fff url("../img/arrow.png") no-repeat 60px 70%
+			width: 80px
+			height: 18px
+			.btn
+				padding-right: 20px !important
+				vertical-align: center 
+				font-size: 17px
+				padding: 0
+				margin: 0
+				border-radius: 0
+				background: transparent
+				border: 0
+				&:focus
+					outline: none
+				.icons
+					background-position: -235px -68px
+
 	.phone
+		.icons
+			height: 30px
+			background-position: 0 0px
 		margin-top: 40px
 		font-size: 18px
-		a
+		>a
 			color: $mainColor2
 			padding-left: 10px
+	.telegram
+		margin:
+			top: 10px
+			left: 0px
+		a
+			>.icons
+				background-position: -30px 0px
+			.whatsapp
+				height: 28px
+				margin-left: 5px
+				background-position: -60px 0px
 	.location
 		text-align: right
-		>p
-			font-size: 14px
-			padding:
-				left: 10px
-				top: 10px
-				bottom: 10px
-			span
-				padding-left: 7px
-			a
-				color: rgb(24,24,24)
-		.partner
-			padding-right: 30px
-		.partner, .action
-			color: $mainColor2
-			text-transform: uppercase
-			&:hover
-				text-decoration: underline
-		.render
-			color: $mainColor2
-			position: relative
+		font-size: 14px
+		margin:
+			left: 10px
 			top: 10px
+			bottom: 10px
+		.icons
+			width: 15px
+			height: 25px
+			background-position: 0 -38px
+			margin-left: 72px 
+		span
+			padding-left: 7px
+		a
+			color: $mainColor2
+	
+	.actions
+		margin:
+			top: 12px
+		text-align: right
+		.partner, .action, .render
+			color: $mainColor2
+		p
+			padding: 
+				bottom: 17px
+			text-transform: uppercase
+			text-align: right
+			.partner
+				padding-right: 36px
+				&:hover
+					text-decoration: underline
+			.action
+				&:hover
+					text-decoration: underline
+		.render
+			.rend
+				margin-right: 7px
+			.sell
+				margin-left: 7px
 			&:hover
 				border-bottom: dotted rgb(37,37,37)
 
@@ -102,21 +150,34 @@ nav
 	top: 0
 	left: 0
 	width: 100%
-	height: 100%
+	height: 47px
 	line-height: 47px
 	z-index: 999
 	border: 0
 	background-color: $mainColor1
 	margin-top: 20px
 	li
+		position: relative
 		display: inline-block
-		text-align: center
-.menu
-	.mega_menu
-		background-color: $mainColor3
+	.menu__top_menu
 		width: 230px
-		a
-			color: #fff
+		height: 47px
+		.menu__dropdown_menu
+			display: none
+		li
+			&:hover
+				.menu__dropdown_menu
+					display: block !important
+					background: $mainColor1
+			a
+				z-index: 500
+		padding: 0
+		margin: 0
+		background: url("../img/dubbel_arrow.png") no-repeat 76px 59%
+		
+		position: absolute
+			
+		
 // 		.serch_select
 // 			background-color: red
 // 			height: 37px
@@ -150,74 +211,170 @@ nav
 .bottom_menu
 	font-size: 18px
 	text-align: left
-	height: 83px
-	line-height: 83px 
+	height: 53px
+	margin:
+		top: 30px
 	li
 		display: inline-block
-		margin: 
-			right: 40px
 		a
 			color: $mainColor2
 			&:hover
 				text-decoration: underline
 				color: $mainColor3
 
+	.parfum, .chemistry, .clothes, .ohter_islam, .children
+		span
+			padding:
+				left: 3px
+	.parfum
+		margin:
+			right: 32px
+		.icons
+			height: 28px
+			background-position: -89px  0px
+	.chemistry
+		margin:
+			right: 21px
+		.icons
+			height: 28px
+			background-position: -118px  1px		
+	.clothes
+		margin:
+			right: 20px
+		.icons
+			height: 28px
+			width: 25px
+			background-position: -147px  1px		
+	.ohter_islam
+		margin:
+			right: 22px
+		.icons
+			width: 25px
+			height: 25px
+			background-position: -172px  -1px		
+	.children
+		margin:
+			right: 33px
+		.icons
+			height: 28px
+			width: 25px
+			background-position: -194px  1px
+			
+
 	.other
-		margin-left: 28px
-		select
-			margin:
-				top: 0
-			border-radius: 0
-			background: transparent
-			border: 0
-			width: 70px
-			&:focus
-				outline: none
-			option
+		.btn-group
+			padding: 0
+			margin-left: 28px
+			background: #fff url("../img/dubbel_arrow.png") no-repeat 76px 59%
+			width: 90px
+			height: 25px
+			.btn
+				&:hover
+					text-decoration: underline
+					color: $mainColor3
+				width: 90px
 				background: transparent
-		.other__menu
-			&:hover
-				text-decoration: underline
-				color: $mainColor3
-			display: inline-block
-			width: 50px
-			background: #fff url("../img/dubbel_arrow.png") no-repeat 45px 50%
-
-
+				vertical-align: center
+				font-size: 18px
+				padding: 0
+				margin: 0
+				border-radius: 0
+				background: transparent
+				border: 0
+				text-align: left
+				&:focus
+					outline: none
+				.icons
+					margin-right: 10px
+					background-position: -220px  2px
 
 .slider_top, .info
 	height: 322px
-.slider_top
-	background-color: $mainColor1
-	margin: 
-		left: 10px
-	padding-top: 6px
-	text-align: center
 .info
 	background-color: #fff
 	border: 1px solid $mainColor1
-	padding: 20px
+	padding: 15px
 	margin: 
-		right: 10px
+		right: 9px
 	table
-		height: 90%
+		height: 100%
 		font-size: 18px
+		.list_rend
+			.icons
+				height: 40px
+				width: 40px
+				background-position: -74px -25px
+		.list_export
+			.icons
+				height: 40px
+				width: 40px
+				background-position: -113px -25px
+		.list_shop
+			.icons
+				height: 40px
+				width: 40px
+				background-position: -153px -25px
+		.list_money
+			.icons
+				height: 40px
+				width: 40px
+				background-position: -193px -25px
+		.list_frend
+			.icons
+				height: 40px
+				width: 40px
+				background-position: -230px -25px
 		td
+			line-height: 20px
 			padding:
 				bottom: 10px
 				left: 15px
 
-.baner, .middle_line
-	position: relative
-	text-align: center
 .baner
-	margin: 39px auto	
-.middle_line
-	background-image: url(../img/line.png) 
+	margin: 38px auto
+	.parfum, .perm, .clothers
+		height: 176px
+		border: 1px solid $mainColor1
+		.left_text
+			p
+				line-height: 5px
+			text-transform: uppercase
+			text-align: left
+			font-size: 20px
+			padding: 
+				top: 13px
+				left: 10px
+			color: #fff
+		.right_text
+			p
+				line-height: 5px
+			text-align: right
+			font-size: 20px
+			padding: 
+				right: 20px
+			color: #fff
+	.parfum
+		margin-right: 7px 
+		background-image: url("../img/parfum.png")
+		.left_text
+			color: rgb(255,0,0)
+	.perm
+		background-image: url("../img/Perm.png")
+	.clothers
+		background-image: url("../img/clothes.png")
+		margin-left: 10px
+.line
 	margin: 52px auto
 	
-	 
-
+	position: relative
+	.middle_line
+		background: #fff url("../img/line.png") no-repeat 100% 33%
+		text-align: center
+		font-size: 20px
+		color: $mainColor3
+		text-transform: uppercase
+		vertical-align: center
+		padding-right: 22px
 				
 
 

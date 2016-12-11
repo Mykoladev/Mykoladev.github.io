@@ -34,45 +34,59 @@
 						
 					</div>
 					<div class="col-md-3 col-xs-6">
-						<div class="counry">
-							<select>
-								<option value="">россия</option>
-							</select>
+						<div class="country">
+							<div class="btn-group">
+								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+									россия
+								
+								</button>
+							<ul class="dropdown-menu">
+								<li><a href="#">україна</a></li>
+								<li><a href="#">USA</a></li>
+							</ul>	
+							</div>
 						</div>
-							
 						<div class="language">
-							<img src="img/flag.png" alt="flug">
-							<select>
-								<option value="">
-									
-									rus</option>
-							</select>
-						
+							<div class="btn-group">
+								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+								<div class="icons"></div>rus								
+								</button>
+							<ul class="dropdown-menu">
+								<li><a href="#">ua</a></li>
+								<li><a href="#">en</a></li>
+							</ul>	
+							</div>						
 						</div>
 	     			</div>
 					<div class="col-md-3 col-xs-6">
 						<div class="phone">
-							<img src="img/phone.png" alt="tel">
+							<div class="icons"></div>
 							<a href="tel:88001112233">8 800 11-22-33</a>
-							<p>
-								<a href="#"><img src="img/telegram.png" class="social" alt="social"></a>
-								<a href="#"><img src="img/whatsapp.png" alt="social"></a>
-							</p>
-
-						</div>
-						
+							</div>
+							<div class="telegram">
+								<a href="##">
+									<div class="icons"></div>
+									<div class="icons whatsapp"></div>
+								</a>
+							</div>
 					</div>
 					<div class="col-md-3 col-xs-6">
 						<div class="location">
-							<p><img src="img/location.png" alt="location">
-								<span>ваш город</span> <a href="#">Москва</a>
+							<div class="icons"></div>
+							<span>ваш город</span> <a href="#"><b>Москва</b></a>
+						</div>	
+						
+						<div class="actions">
+							<p>
+								<a href="#" class="partner">Партнеры</a>
+								<a href="#" class="action">Акции</a>
 							</p>
-							<a href="#" class="partner">Партнеры</a>
-							<a href="#" class="action">Акции</a>
-							<a href="#" class="render">Доставка и Оплата</a>
 							
-
+							<a href="#" class="render"><span class="rend">Доставка</span>и
+							<span class="sell">Оплата</span></a>
 						</div>
+							
+							
 						
 					</div>
 				</div>
@@ -92,12 +106,16 @@
 						<div>---</div>
 						<div>---</div>
 					</button>-->
-					<ul class="menu">
-						<li class="mega_menu"><a href="###">
-							Каталог товаров
-							<img src="img/white_arr.png" alt="arrow">
-						</a></li>
-						<!--<li class="serch_select">
+		        <ul class="menu__top_menu">
+           			 <li class="dropdown" ><a href="#">Some link</a>
+					<ul class="menu__dropdown_menu">
+						<li><a href="#">Some link1</a></li>
+						<li><a href="#">Some link1</a></li>
+					</ul>
+					</li>
+				 </ul>
+						<!--</a></li>
+						<li class="serch_select">
 							<input type="text" class="serch_input" placeholder="Выбирайте">
 							<select>
 								<option value="">Все разделы</option>
@@ -129,39 +147,33 @@
 						<div></div>
 					</button>
 					<ul class="bottom_menu">
-				
-						<li><a href="###">
-							<img src="img/icon_diamant.png" alt="Парфюм">
+						<li class="parfum"><a href="###"><div class="icons"></div>
 							<span>Парфюм</span>	
 						</a></li>
-						<li><a href="###">
-							<img src="img/icon_drop.png" alt="Парфюм">
+						<li class="chemistry"><a href="###"><div class="icons"></div>
 							<span>Бытовая химия</span>
 						</a></li>
-						<li><a href="###">
-							<img src="img/icon_clothes.png" alt="Парфюм">
+						<li class="clothes"><a href="###"><div class="icons"></div>
 							<span>Одежда</span>
 						</a></li>
-						<li><a href="###">
-							<img src="img/icon_mechet.png" alt="Парфюм">
+						<li class="ohter_islam"><a href="###"><div class="icons"></div>
 							<span>Исламская отрибутика</span>
 						</a></li>
-						<li><a href="###">
-							<img src="img/icon_baby.png" alt="Парфюм">
+						<li class="children"><a href="###"><div class="icons"></div>
 							<span>Детям</span>
 						</a></li>
 						<li class="other">
-							<img src="img/icon_list.jpg" alt="Парфюм">
-							<div class="other__menu">
-								<select>
-								<option value="">
-									<img src="img/flag.png" alt="flug">
-									Еще</option>
-							</select>
+								<div class="btn-group">
+									<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+										<div class="icons"></div><span>Eще</span></button>
+								<ul class="dropdown-menu">
+									<li><a href="#">Lorem ipsum.</a></li>
+									<li><a href="#">Lorem ipsum.</a></li>
+								</ul>				
 							</div>
 							
 						</li>
-					</ul>
+					</ul>	
 				</div>
 		</div>
 	</div>	
@@ -174,23 +186,23 @@
 				<div class="info">
 					<table>
 						<tr>
-							<td><img src="img/car.png" alt="car"></td>
+							<td class="list_rend"><div class="icons"></div></td>
 							<td>Доставка по свему СНГ и Восточной европе</td>
 						</tr>
 						<tr>
-							<td><img src="img/basket_top.png" alt="basket_top"></td>
+							<td class="list_export"><div class="icons"></div></td>
 							<td>Получение товаров по странам и регионам</td>
 						</tr>
 						<tr>
-							<td><img src="img/pin.png" alt="pin"></td>
+							<td class="list_shop"><div class="icons"></div></td>
 							<td>Наши магазини по странам и регионам</td>
 						</tr>
 						<tr>
-							<td><img src="img/dollar.png" alt="hand"></td>
+							<td class="list_money"><div class="icons"></div></td>
 							<td>Оплата товаров</td>
 						</tr>
 						<tr>
-							<td><img src="img/hand.png" alt="hand"></td>
+							<td class="list_frend"><div class="icons"></div></td>
 							<td>Кто хочет с нами сотрудничать</td>
 						</tr>
 					</table>
@@ -206,24 +218,59 @@
 		</div>
 	</section>
 	
-	<section>
+	<section class="baner">
 		<div class="container">
-			<div class="row">
-				<div class="baner">
-						
-					<div class="col-md-4"><img src="img/parfum.png" alt="parfum"></div>
-					<div class="col-md-4"><img src="img/Perm.png" alt=""></div>
-					<div class="col-md-4"><img src="img/parfum.png" alt=""></div>
+			<div class="row">		
+					
+						<div class="col-md-4 col-xs-6">
+							<div class="parfum">
+								<div class="left_text">Парфюм</div>
+								<div class="right_text">оптом и <p>в розницу</div>
+							</div>
+						</div>
+					
+						<div class="col-md-4 col-xs-6">
+							<div class="perm">
+								<div class="left_text">Бытовая <p>химия</p></div>
+								<div class="right_text">оптом и <p>в розницу</p></div>
+							</div>
+						</div>
+					
+						<div class="col-md-4 col-xs-6">
+							<div class="clothers">
+								<div class="left_text">Одежда</div>
+								<div class="right_text">оптом и <p>в розницу</div>
+							</div>
+						</div>
 					
 				</div>
 			</div>
+	</section>
+	<section class="line">
+		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
-					<div class="middle_line"></div>
-				</div>
-			</div>	
+					<div class="col-md-12 col-xs-6">
+						<div class="middle_line">
+							<p>бытовая химия</p>
+						</div>
+						</div>
+					</div>	
+			</div>
 		</div>
 	</section>
+	<section class="what_we_have">
+		<div class="content">
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-3"></div>
+				<div class="col-md-2"></div>
+				<div class="col-md-3"></div>
+				<div class="col-md-2"></div>
+			</div>
+		</div>
+	</section>	
+			
+	
 
 
 	

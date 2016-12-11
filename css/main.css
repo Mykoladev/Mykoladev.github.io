@@ -163,42 +163,18 @@ nav {
   height: 53px;
   margin-top: 30px; }
   .bottom_menu li {
+    margin-right: 25px;
     display: inline-block; }
+    .bottom_menu li span {
+      padding-left: 3px; }
+    .bottom_menu li .icons {
+      height: 25px;
+      width: 25px; }
     .bottom_menu li a {
       color: #3f3f3f; }
       .bottom_menu li a:hover {
         text-decoration: underline;
         color: #ec5b26; }
-  .bottom_menu .parfum span, .bottom_menu .chemistry span, .bottom_menu .clothes span, .bottom_menu .ohter_islam span, .bottom_menu .children span {
-    padding-left: 3px; }
-  .bottom_menu .parfum {
-    margin-right: 32px; }
-    .bottom_menu .parfum .icons {
-      height: 28px;
-      background-position: -89px 0px; }
-  .bottom_menu .chemistry {
-    margin-right: 21px; }
-    .bottom_menu .chemistry .icons {
-      height: 28px;
-      background-position: -118px 1px; }
-  .bottom_menu .clothes {
-    margin-right: 20px; }
-    .bottom_menu .clothes .icons {
-      height: 28px;
-      width: 25px;
-      background-position: -147px 1px; }
-  .bottom_menu .ohter_islam {
-    margin-right: 22px; }
-    .bottom_menu .ohter_islam .icons {
-      width: 25px;
-      height: 25px;
-      background-position: -172px -1px; }
-  .bottom_menu .children {
-    margin-right: 33px; }
-    .bottom_menu .children .icons {
-      height: 28px;
-      width: 25px;
-      background-position: -194px 1px; }
   .bottom_menu .other .btn-group {
     padding: 0;
     margin-left: 28px;
@@ -236,30 +212,13 @@ nav {
   .info table {
     height: 100%;
     font-size: 18px; }
-    .info table .list_rend .icons {
-      height: 40px;
-      width: 40px;
-      background-position: -74px -25px; }
-    .info table .list_export .icons {
-      height: 40px;
-      width: 40px;
-      background-position: -113px -25px; }
-    .info table .list_shop .icons {
-      height: 40px;
-      width: 40px;
-      background-position: -153px -25px; }
-    .info table .list_money .icons {
-      height: 40px;
-      width: 40px;
-      background-position: -193px -25px; }
-    .info table .list_frend .icons {
-      height: 40px;
-      width: 40px;
-      background-position: -230px -25px; }
     .info table td {
       line-height: 20px;
       padding-bottom: 10px;
       padding-left: 15px; }
+      .info table td .icons {
+        height: 40px;
+        width: 40px; }
 
 .baner {
   margin: 38px auto; }

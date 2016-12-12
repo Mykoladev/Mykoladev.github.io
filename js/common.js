@@ -12,3 +12,13 @@
 // });
 
 // });
+var moscow_map
+        
+    ymaps.ready(function(){
+        moscow_map = new ymaps.Map("map_section", {
+            center: [55.76, 37.64],
+            zoom: 10,
+        });
+ moscow_map.behaviors.disable('scrollZoom');
+    });
+   

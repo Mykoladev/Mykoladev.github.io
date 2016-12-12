@@ -382,9 +382,12 @@ nav {
     .title_map .middle_map_text p {
       padding-right: 22px; }
 
-.map {
+#map_section {
   margin-top: 47px;
-  margin-bottom: 122px; }
+  margin-bottom: 122px;
+  height: 704px;
+  width: 100%;
+  background: #3f3f3f; }
 
 .title_our_brend {
   margin-top: 135px;

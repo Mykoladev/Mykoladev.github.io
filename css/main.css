@@ -223,6 +223,7 @@ nav {
 .baner {
   margin: 38px auto; }
   .baner .parfum, .baner .perm, .baner .clothers {
+    font-weight: 600;
     height: 176px;
     border: 1px solid #db841a; }
     .baner .parfum .left_text, .baner .perm .left_text, .baner .clothers .left_text {
@@ -253,15 +254,118 @@ nav {
     margin-left: 10px; }
 
 .line {
-  margin: 52px auto;
+  margin-top: 52px;
+  margin-bottom: 44px;
   position: relative; }
   .line .middle_line {
     background: #fff url("../img/line.png") no-repeat 100% 33%;
     text-align: center;
     font-size: 20px;
+    font-weight: 600;
     color: #ec5b26;
     text-transform: uppercase;
+    vertical-align: center; }
+    .line .middle_line p {
+      padding-right: 22px; }
+
+.what_we_have {
+  font-weight: 600;
+  text-align: center;
+  font-size: 16px;
+  color: #0028aa;
+  text-transform: uppercase; }
+  .what_we_have .what_we_have__img {
+    margin-bottom: 18px; }
+
+.goods {
+  margin-top: 180px;
+  margin-bottom: 46px; }
+
+.top_goods {
+  margin-bottom: 18px;
+  text-align: center; }
+  .top_goods .border_img {
+    border: 1px solid #db841a;
+    height: 562px;
     vertical-align: center;
-    padding-right: 22px; }
+    padding-top: 30px;
+    padding-bottom: 31px;
+    padding-left: 25px;
+    padding-right: 25px; }
+    .top_goods .border_img .img {
+      height: 260px;
+      margin-top: 30px;
+      margin-bottom: 30px; }
+    .top_goods .border_img .last_img {
+      padding-top: 30px;
+      margin-bottom: 0px; }
+    .top_goods .border_img .title, .top_goods .border_img .price, .top_goods .border_img .buy {
+      font-weight: 600;
+      text-transform: uppercase; }
+    .top_goods .border_img .title {
+      color: #0028aa;
+      font-size: 20px; }
+    .top_goods .border_img .price {
+      font-size: 25px;
+      margin-bottom: 5px; }
+    .top_goods .border_img .buy {
+      color: #ec5b26;
+      padding-top: 20px; }
+    .top_goods .border_img .describe {
+      font-size: 20px; }
+
+.line_clothes {
+  margin-top: 142px;
+  margin-bottom: 46px; }
+
+.title_map {
+  margin-top: 115px;
+  position: relative; }
+  .title_map .middle_map_text {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ec5b26;
+    text-transform: uppercase;
+    vertical-align: center; }
+    .title_map .middle_map_text p {
+      padding-right: 22px; }
+
+.map {
+  margin-top: 47px;
+  margin-bottom: 122px; }
+
+.our_brend {
+  margin-bottom: 115px; }
+
+.about {
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  height: 275px;
+  background: #8e9399; }
+  .about .about_us {
+    margin-top: 40px; }
+    .about .about_us .top_footer_text {
+      margin-left: 52px;
+      margin-right: 23px; }
+    .about .about_us .first_text {
+      margin-right: 23px; }
+    .about .about_us .about_us__title {
+      text-decoration: underline;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-bottom: 24px; }
+
+footer {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #fff;
+  height: 137px;
+  background-color: #3b424b; }
+  footer .text_footer {
+    margin-top: 22px;
+    margin-bottom: 36px; }
 
 /*# sourceMappingURL=main.css.map */

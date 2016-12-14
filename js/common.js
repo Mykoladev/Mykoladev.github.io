@@ -1,19 +1,19 @@
 // $(document).ready(function() { 
 // $('.slider_top').owlCarousel({
-//     center: true,
 //     items:1,
+//     lazyLoad:true,
 //     loop:true,
-//     margin:10,
-//     // responsive:{
-//     //     600:{
-//     //         items:4
-//     //     }
-//     // }
+//     margin:10
 // });
+// $('.slide_goods').owlCarousel({
+//     items:4,
+//     lazyLoad:true,
+//     loop:true,
+//     margin:10  
 
 // });
-var moscow_map
-        
+// });
+var moscow_map  
     ymaps.ready(function(){
         moscow_map = new ymaps.Map("map_section", {
             center: [55.76, 37.64],

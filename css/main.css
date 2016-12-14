@@ -179,17 +179,18 @@ nav {
     border: 0;
     box-shadow: none;
     padding-left: 34px;
-    margin: 0 !important;
     width: 205px;
     color: #ec5b26;
     height: 45px; }
   nav .menu__top_menu .select_block {
+    height: 46px;
     color: #000;
     display: inline-block;
     width: 156px;
     background: #fff url("../img/black_arr.png") no-repeat 120px 50%; }
     nav .menu__top_menu .select_block select {
-      height: 45px;
+      height: 46px;
+      border-top: 1px solid #ec5b26 !important;
       width: 100%;
       border: 0;
       background: transparent;
